@@ -1,3 +1,4 @@
 TBJCreations::Application.routes.draw do
-  root :to => 'visitors#new'
+  get "home/index"
+  root :to => 'home#index'
 end
